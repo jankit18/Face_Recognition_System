@@ -1,4 +1,4 @@
-# Face_Recognition_Sysytem
+# Face_Recognition_System
 
 A face Recognition system for 2.5 lakh unique faces using a multi-level KNN clusters and a ResNet-34 model.Recognition involves
 pre-processing (face detection & landmark generation + alignment) and then inference using resnet34 model. The KNN structure
