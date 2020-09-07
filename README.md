@@ -9,6 +9,6 @@ array of normalized vector for future recognition purpose.
 File Description:
 1. Aligner_frontal_v_1.0 --> Used for the frontal face detection and creation of embedding of the images using transfer learning from a ResNet-34 model.(We can obtain image embeddings from a ResNet-34 by taking the output of its second last Fully-connected layer which has a dimension of 512.)
 
-2. Knn_model_v_1.0 --> Used for the classification of all the data using K-mean algorithm and creation of 1-D Numpy-array containg centroid of ech layer.
+2. Knn_model_v_1.0 --> Used for the classification of all the data using K-mean algorithm and creation of 1-D Numpy-array containg centroid of each layer.
 
 3. Prediction_v_1.0 --> Used to predict the label of new input image using score of recognition which is basically a dot product divide by multiplication of magnitude of two vector.
